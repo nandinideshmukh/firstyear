@@ -1,0 +1,175 @@
+
+div11 {
+    align-items: center;
+    justify-content: center;
+    display: block;
+    border: 2px solid black;
+    border-radius: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+div12{
+    align-items: center;
+    justify-content: center;
+    display: block;
+    padding-left: 250px;
+}
+div {
+    align-items: center;
+    justify-self: center;
+    display: block
+}
+a {
+    color: darkblue;
+   
+    background-color:lightblue;
+    text-align: center;
+    align-items: center;
+    display: block;
+    align-content: center;
+    font-size: large;}
+
+caption {
+    font-family: cursive;
+    font-size: 20px;
+    font-style: bold;
+}
+#button{
+    color: black;
+    background-color:rgb(30, 105, 210);
+}
+#button:active{
+    background-color: dodgerblue;
+    
+}
+h3{
+    line-height: 30px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+h2{
+    color:darkblue;
+    font-family: cursive;
+    text-align: center;
+    display: blocks;
+}
+a1{
+    padding-left: 30px;
+    align-items: center;
+   display: inline;
+   margin: 155px;
+    height: 20px;
+    fill: (59,170,195);
+   
+
+}
+#navbar{
+    text-align: center;
+    
+    height:20px ;
+    font-size: 20px;
+}
+#navbar:hover{
+    font-size: 20px;
+}
+#navbar a{
+   
+   text-decoration: none;
+    
+    left: 450px;
+}
+h1{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+#navbar:hover{
+    background-color: white;
+    color: black;}
+
+.ani img{
+    position: static;
+    padding-left: 350px;
+    display: block;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes rotate{
+    from{padding-left: 0px;} to {padding-left: 1000px;}
+}
+caption{
+
+    color: rgba(37, 160, 162, 0);
+}
+a{display: inline;
+    margin-right: 40px;
+}
+
+h8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h8 img{
+    
+    position: static;
+    padding-top:10px;
+    width: 150px;;
+    height: 150px;
+
+}
+#div44 img:hover{
+    transform: scale(1.25);
+    transition-delay: 2;
+    transition-timing-function: steps(2);
+ }
+div40 {
+    text-align: center;
+}
+
+.div40{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div41{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    color:black;
+    text-indent: 20px;
+    font-display:initial;
+}
+.div42 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#div44 img{
+    padding-left: 70px;
+    
+    width: 400px;
+    height: 300px;
+}
+#div44{background-color: cadetblue;
+border: 10px black;
+
+}
+#div45{
+    font-size: 30px;
+    text-align: center;
+    
+
+}
+form{
+    font-size: 20px;
+}
